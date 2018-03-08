@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Compare Scresens Test Suite" thread-count="6" parallel="tests">
+
+ <test name="Compare Screens Regression testing" thread-count="6" parallel="methods">
+ 
+    <classes>
+      <class name="CompareScreens.CompareScreenTest">
+	       <methods>
+	       
+	        <exclude name="WindowsIE" />
+	        <exclude name="WindowsFF" />
+	       	<exclude name="AndroidChrome" />
+	        <exclude name="MacChrome"/>
+	        <include name="MacSafari"/>
+	        <exclude name="WindowsChrome"/>
+	        
+	      
+	      </methods>
+        </class>
+    </classes>
+  </test>  
+  
+  
+</suite> <!-- Suite --> 
+
+
