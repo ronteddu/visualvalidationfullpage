@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="6" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Compare Scresens Test Suite" duration-ms="9745941" started-at="2018-03-05T05:26:15Z" finished-at="2018-03-05T08:08:41Z">
+    <groups>
+    </groups>
+    <test name="Compare Screens Regression testing" duration-ms="9745941" started-at="2018-03-05T05:26:15Z" finished-at="2018-03-05T08:08:41Z">
+      <class name="CompareScreens.CompareScreenTest">
+        <test-method status="PASS" signature="MacSafari()[pri:0, instance:CompareScreens.CompareScreenTest@61ca2dfa]" name="MacSafari" duration-ms="9745768" started-at="2018-03-05T16:26:15Z" description="OperatingSystem = MAC and Browser = Safari" finished-at="2018-03-05T19:08:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MacSafari -->
+      </class> <!-- CompareScreens.CompareScreenTest -->
+    </test> <!-- Compare Screens Regression testing -->
+  </suite> <!-- Compare Scresens Test Suite -->
+</testng-results>

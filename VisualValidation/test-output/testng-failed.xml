@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Compare Scresens Test Suite]">
+  <test name="Compare Screens Regression testing(failed)" parallel="methods">
+    <classes>
+      <class name="CompareScreens.CompareScreenTest">
+        <methods>
+          <include name="MacChrome"/>
+        </methods>
+      </class> <!-- CompareScreens.CompareScreenTest -->
+    </classes>
+  </test> <!-- Compare Screens Regression testing(failed) -->
+</suite> <!-- Failed suite [Compare Scresens Test Suite] -->
